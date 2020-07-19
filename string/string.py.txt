@@ -58,4 +58,31 @@ TypeError: must be str, not int
 0
 >>> s.encode('ascii')
 b'abcabc'
+>>> s = ''''''
+>>> s
+''
+>>> s = ''' '''
+>>> s
+' '
+>>> type(s)
+<class 'str'>
+>>> len(s)
+1
+>>> s = '\n'
+>>> print(s)
+
+
+>>> s = '''
+
+'''
+>>> print(s)
+
+
+
+>>> len(s)
+2
+>>> s[0]
+'\n'
+>>> s
+'\n\n'
 >>> 
