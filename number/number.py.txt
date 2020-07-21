@@ -1,0 +1,36 @@
+Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> n = 563
+>>> type(n)
+<class 'int'>
+>>> n + n
+1126
+>>> n * 2
+1126
+>>> n ** 2
+316969
+>>> n += n
+>>> n
+1126
+>>> n / 2
+563.0
+>>> type(n / 2)
+<class 'float'>
+>>> n // 2
+563
+>>> type(n // 2)
+<class 'int'>
+>>> n -= n
+>>> n
+0
+>>> n // 0
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    n // 0
+ZeroDivisionError: integer division or modulo by zero
+>>> n / 0
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    n / 0
+ZeroDivisionError: division by zero
+>>> 
