@@ -1,0 +1,85 @@
+Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> n = 563
+>>> type(n)
+<class 'int'>
+>>> n + n
+1126
+>>> n * 2
+1126
+>>> n ** 2
+316969
+>>> n += n
+>>> n
+1126
+>>> n / 2
+563.0
+>>> type(n / 2)
+<class 'float'>
+>>> n // 2
+563
+>>> type(n // 2)
+<class 'int'>
+>>> n -= n
+>>> n
+0
+>>> n // 0
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    n // 0
+ZeroDivisionError: integer division or modulo by zero
+>>> n / 0
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    n / 0
+ZeroDivisionError: division by zero
+>>> n = int()
+>>> n
+0
+>>> n = int(54.235)
+>>> n
+54
+>>> int('57')
+57
+>>> int([53])
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    int([53])
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+>>> int(0101101, base=2)
+SyntaxError: invalid token
+>>> int('0101101', base=2)
+45
+>>> int('0101101', base=3)
+280
+>>> int('0101101', base=4)
+1105
+>>> int('0101101', base=5)
+3276
+>>> int('0101101', base=6)
+8029
+>>> int('0101101', base=7)
+17200
+>>> int('0101101', base=8)
+33345
+>>> int('0101101', base=9)
+59860
+>>> int('0101101', base=10)
+101101
+>>> int('0101101', base=11)
+162504
+>>> int((30))
+30
+>>> int((30.321))
+30
+>>> int((30.321, 34))
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    int((30.321, 34))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'tuple'
+>>> int((30,))
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    int((30,))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'tuple'
+>>> 
